@@ -15,6 +15,15 @@ div.center {
     margin-top: 20%;
 }
 
+#brush {
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 539px;
+    height: 263px;
+    float: left;
+    background-image: url('../image/brush.png');
+}
+
 #contact {
     font-size: 12px;
     margin-top: 25px;
