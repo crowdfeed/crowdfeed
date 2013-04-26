@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@media screen, projection {
+    
+body, html {
+    width: 100%;
+    font-family: Helvetica, Tahoma, Calibri, Veranda, Arial, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    background-color: #232229;
+    background-image: url('../image/background.jpg');
+}
+
+div.center {
+    margin-top: 20%;
+}
+
+h1 {
+    color: #9bdcff;
+    font-size: 48px;
+    font-weight: normal;
+
+}
+
+h1 > .tld {
+    color: #fff;
+}
+
+.quote {
+    font-style: italic;
+}
+
+a {
+    color: #9bdcff;
+    text-decoration: none;
+}
+
+p {
+    margin: 7px;
+}
+
+/* end @media */
+}
