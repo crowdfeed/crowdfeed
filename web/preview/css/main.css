@@ -3,42 +3,51 @@
     
 body, html {
     width: 100%;
-    font-family: Helvetica, Tahoma, Calibri, Veranda, Arial, sans-serif;
+    font-family: 'Libertinage', Helvetica, Tahoma, Calibri, Veranda, Arial, sans-serif;
+    font-weight: normal; 
+    font-style: normal; 
     font-size: 18px;
-    color: #fff;
-    text-align: center;
-    background-color: #232229;
+    color: #000;
+    background-color: #f0f0e7;
     background-image: url('../image/background.jpg');
 }
 
 div.center {
+    /*
     margin-top: 20%;
+    */
 }
 
-#brush {
+#wrapper {
+    /*
     margin-top: 10%;
     margin-left: 30%;
-    width: 539px;
+    */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -130px;
+    width: 700px;
     height: 263px;
+}
+
+#logo {
     float: left;
-    background-image: url('../image/brush.png');
+    margin-right: 25px;
+    margin-top: -10px;
 }
 
 #contact {
     font-size: 12px;
     margin-top: 25px;
-    opacity: 0.7;
 }
 
 h1 {
-    color: #9bdcff;
+    color: #000;
     font-size: 48px;
     font-weight: normal;
 
-}
-
-h1 .tld {
-    color: #fff;
 }
 
 .quote {
@@ -46,8 +55,12 @@ h1 .tld {
 }
 
 a {
-    color: #9bdcff;
+    color: #ff800f;
     text-decoration: none;
+}
+
+#contact a:hover {
+    border-bottom: 1px dashed #ff800f;
 }
 
 p {
